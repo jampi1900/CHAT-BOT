@@ -8,5 +8,5 @@ langchain-community
 langchain-core
 requests
 pyngrok
-grandalf
-ssh
+grandalf==0.8  # Versión fija para evitar advertencias
+paramiko>=3.0.0  # Reemplazo para 'ssh'
